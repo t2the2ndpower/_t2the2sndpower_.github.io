@@ -14,6 +14,11 @@ body {
     background-color: white;
 }
 
+.TopBarLinks {
+    position: relative;
+    float: right;
+}
+
 .TopBarText {
     width: 35%;
     padding: 0px 0px 0px 100px;
