@@ -17,12 +17,21 @@ body {
 .TopBarText {
     width: 35%;
     padding: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 250px;
     background-color: aqua;
     line-height: 60px;
+    position: relative;
 }
 
 .H2Bar {
     color: blue;
+    margin-left: 250px;
+    /* float: left; */
+    padding: 20px;
+    height: auto;
+    width: 960px;
+    border: 2px solid;
+    background-color: white;
 }
 
 .H2Content {
