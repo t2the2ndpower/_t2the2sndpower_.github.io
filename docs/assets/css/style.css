@@ -37,7 +37,28 @@ body {
     /* align-content: right; */
     font-size: 20px;
     /* font-style: bold underline; */
+
 }
+/* unvisited link */
+a:link {
+    color: rgb(40, 62, 77);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(48, 151, 235);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: lightslategray;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 0, 212);
+  }
 
 .SpaceBar {
     height: 45px;
