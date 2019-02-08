@@ -1,3 +1,6 @@
+/* Please Note:  There is a LOT of experimentation here, don't judge. */
+
+
 body {
     /* font-family: Verdana, Geneva, Tahoma, sans-serif;   */
     font-family: 'Josefin Sans', sans-serif;
@@ -30,7 +33,7 @@ body {
 .TopBarLinks {
     position: relative;
     width: 25%;
-    padding: 65px 0px 0px 30px;
+    padding: 65px 0px 0px 0px;
     float: right;
     /* border: 2px green solid; */
     display: inline-block ;
@@ -39,9 +42,17 @@ body {
     /* font-style: bold underline; */
 
 }
+
+/* a.TopBarLinks { 
+    padding: 0px 20px 0px 0px
+}
+
 /* unvisited link */
 a:link {
     color: rgb(40, 62, 77);
+    text-decoration: none;
+    padding: 0px 20px 0px 0px;
+    font-size: 16px;
   }
   
   /* visited link */
@@ -109,18 +120,37 @@ p {
     font-size: 18px;
 }
 
-img {
-    padding: 20px 30px 10px 20px;
-    border-color: gray;
-    float: left;
+.projband {
+    display: block;
+    background-color: teal;
+    color: white;
+    font-size: 20;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 30px;
+}
+img { 
+    /* padding: 20px 30px 10px 20px; */
+    /* border-color: gray; */
+    /* float: left; */
     display: block;
     height: 250px;
     width: 250px;
 }
 
-div.gallery img {
+/* div.gallery img { 
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
   }
+  */
+
+  /* .form {
+      width: 300px;
+      height: 300px;
+      border: green;
+      color: purple;
+  /* } */
